@@ -1,0 +1,252 @@
+250 dynamic_trace_events
+# FunctionId Group Tag "Name Type" Parameters
+1 TAUEVENT 0 ".TAU <unknown event>" TriggerValue
+2 TAU_USER 0 ".TAU application " EntryExit
+4 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] " EntryExit
+35 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}]  => [CONTEXT]  Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}]  => [SAMPLE] Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {25}] " EntryExit
+37 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}]  => [CONTEXT]  Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}]  => [SAMPLE] Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {26}] " EntryExit
+33 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}]  => [CONTEXT]  Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] " EntryExit
+14 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] " EntryExit
+157 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {72}] " EntryExit
+192 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {74}] " EntryExit
+186 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {75}] " EntryExit
+41 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {77}] " EntryExit
+201 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {78}] " EntryExit
+217 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {80}] " EntryExit
+39 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}]  => [CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}] " EntryExit
+17 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}] " EntryExit
+15 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] => MPI_Comm_rank()   " EntryExit
+19 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] " EntryExit
+57 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {100}] " EntryExit
+55 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {101}] " EntryExit
+166 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {96}] " EntryExit
+59 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {97}] " EntryExit
+61 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {98}] " EntryExit
+53 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {99}] " EntryExit
+51 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}]  => [CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}] " EntryExit
+29 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}] " EntryExit
+205 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}]  => [CONTEXT]  Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}]  => [SAMPLE] Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {140}] " EntryExit
+246 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}]  => [CONTEXT]  Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}]  => [SAMPLE] Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {154}] " EntryExit
+203 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}]  => [CONTEXT]  Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] " EntryExit
+21 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] " EntryExit
+23 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Irecv()   " EntryExit
+180 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] UNRESOLVED /usr/lib64/libc-2.17.so " EntryExit
+164 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] UNRESOLVED /usr/lib64/libmlx5.so.1.0.0 " EntryExit
+162 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] btl_openib_component_progress [{btl_openib_component.c} {0}] " EntryExit
+159 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] mca_btl_vader_component_progress [{btl_vader_component.c} {0}] " EntryExit
+236 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] ompi_coll_libnbc_progress [{/lustrehome/apps/libraries/openmpi/3.1.1/el7/AVX512/gnu-8.1/lib/openmpi/mca_coll_libnbc.so} {0}] " EntryExit
+178 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] opal_progress [{/lustrehome/apps/libraries/openmpi/3.1.1/el7/AVX512/gnu-8.1/lib/libopen-pal.so.40.10.1} {0}] " EntryExit
+45 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] poll_device [{btl_openib_component.c} {0}] " EntryExit
+160 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()    => [SAMPLE] pthread_spin_lock [{/usr/lib64/libpthread-2.17.so} {0}] " EntryExit
+43 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()    => [CONTEXT]  MPI_Send()   " EntryExit
+25 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Send()   " EntryExit
+222 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()    => [CONTEXT]  MPI_Waitall()    => [SAMPLE] UNRESOLVED /usr/lib64/libmlx5.so.1.0.0 " EntryExit
+206 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()    => [CONTEXT]  MPI_Waitall()    => [SAMPLE] btl_openib_component_progress [{btl_openib_component.c} {0}] " EntryExit
+49 TAU_SAMPLE 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()    => [CONTEXT]  MPI_Waitall()    => [SAMPLE] pthread_spin_lock [{/usr/lib64/libpthread-2.17.so} {0}] " EntryExit
+47 TAU_SAMPLE_CONTEXT 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()    => [CONTEXT]  MPI_Waitall()   " EntryExit
+27 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()   " EntryExit
+63 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::~Grid() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {40,0}] " EntryExit
+12 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => MPI_Bcast()   " EntryExit
+10 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => MPI_Comm_rank()   " EntryExit
+8 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => MPI_Comm_size()   " EntryExit
+31 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => MPI_Finalize()   " EntryExit
+6 TAU_CALLPATH 0 ".TAU application => main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => MPI_Init()   " EntryExit
+153 TRACER 0 "CONT_EVENT" none
+71 TAUEVENT 0 "CPU Cores | 20" TriggerValue
+72 TAUEVENT 0 "CPU MHz | 2401.000" TriggerValue
+73 TAUEVENT 0 "CPU Type | Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz" TriggerValue
+74 TAUEVENT 0 "CPU Vendor | GenuineIntel" TriggerValue
+75 TAUEVENT 0 "CWD | /lustrehome/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing" TriggerValue
+76 TAUEVENT 0 "Cache Size | 28160 KB" TriggerValue
+77 TAUEVENT 0 "Command Line | ./wave2d 2000 2000 4 4 5" TriggerValue
+148 TRACER 0 "EV_INIT" none
+78 TAUEVENT 0 "Ending Timestamp | 1592834422634466" TriggerValue
+207 TAUEVENT 0 "Ending Timestamp | 1592834422634467" TriggerValue
+167 TAUEVENT 0 "Ending Timestamp | 1592834422634468" TriggerValue
+230 TAUEVENT 0 "Ending Timestamp | 1592834422634469" TriggerValue
+79 TAUEVENT 0 "Executable | /lustrehome/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d" TriggerValue
+149 TRACER 0 "FLUSH" EntryExit
+150 TRACER 0 "FLUSH_CLOSE" none
+151 TRACER 0 "FLUSH_INITM" none
+13 TAU_DEFAULT 0 "Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] " EntryExit
+18 TAU_DEFAULT 0 "Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] " EntryExit
+28 TAU_DEFAULT 0 "Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}] " EntryExit
+20 TAU_DEFAULT 0 "Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] " EntryExit
+16 TAU_DEFAULT 0 "Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}] " EntryExit
+62 TAU_DEFAULT 0 "Grid::~Grid() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {40,0}] " EntryExit
+80 TAUEVENT 0 "Hostname | scs0014" TriggerValue
+81 TAUEVENT 0 "Local Time | 2020-06-22T15:00:15+01:00" TriggerValue
+155 TAU_MESSAGE -8 "MESSAGE_RECV" par
+154 TAU_MESSAGE -7 "MESSAGE_SEND" par
+82 TAUEVENT 0 "MPI Processor Name | scs0014" TriggerValue
+11 MPI 0 "MPI_Bcast()  " EntryExit
+9 MPI 0 "MPI_Comm_rank()  " EntryExit
+7 MPI 0 "MPI_Comm_size()  " EntryExit
+30 MPI 0 "MPI_Finalize()  " EntryExit
+5 MPI 0 "MPI_Init()  " EntryExit
+22 MPI 0 "MPI_Irecv()  " EntryExit
+24 MPI 0 "MPI_Send()  " EntryExit
+26 MPI 0 "MPI_Waitall()  " EntryExit
+83 TAUEVENT 0 "Memory Size | 394434796 kB" TriggerValue
+65 TAUEVENT 0 "Message size for broadcast" TriggerValue
+67 TAUEVENT 0 "Message size received from all nodes" TriggerValue
+69 TAUEVENT 0 "Message size received in wait : main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] => Grid::doIterations(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {50,0}] => Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] => MPI_Waitall()  " TriggerValue
+68 TAUEVENT 0 "Message size received in wait" TriggerValue
+66 TAUEVENT 0 "Message size sent to all nodes" TriggerValue
+84 TAUEVENT 0 "Node Name | scs0014" TriggerValue
+85 TAUEVENT 0 "OS Machine | x86_64" TriggerValue
+86 TAUEVENT 0 "OS Name | Linux" TriggerValue
+87 TAUEVENT 0 "OS Release | 3.10.0-957.21.3.el7.x86_64" TriggerValue
+88 TAUEVENT 0 "OS Version | #1 SMP Fri Jun 14 02:54:29 EDT 2019" TriggerValue
+226 TAUEVENT 0 "Starting Timestamp | 1592834415599139" TriggerValue
+89 TAUEVENT 0 "Starting Timestamp | 1592834415599146" TriggerValue
+173 TAUEVENT 0 "Starting Timestamp | 1592834415599147" TriggerValue
+241 TAUEVENT 0 "Starting Timestamp | 1592834415599149" TriggerValue
+247 TAUEVENT 0 "Starting Timestamp | 1592834415599191" TriggerValue
+197 TAUEVENT 0 "Starting Timestamp | 1592834415599203" TriggerValue
+231 TAUEVENT 0 "Starting Timestamp | 1592834415599207" TriggerValue
+168 TAUEVENT 0 "Starting Timestamp | 1592834415599215" TriggerValue
+218 TAUEVENT 0 "Starting Timestamp | 1592834415599219" TriggerValue
+187 TAUEVENT 0 "Starting Timestamp | 1592834415599221" TriggerValue
+193 TAUEVENT 0 "Starting Timestamp | 1592834415599230" TriggerValue
+223 TAUEVENT 0 "Starting Timestamp | 1592834415599232" TriggerValue
+212 TAUEVENT 0 "Starting Timestamp | 1592834415599239" TriggerValue
+181 TAUEVENT 0 "Starting Timestamp | 1592834415599254" TriggerValue
+208 TAUEVENT 0 "Starting Timestamp | 1592834415599255" TriggerValue
+237 TAUEVENT 0 "Starting Timestamp | 1592834415599263" TriggerValue
+90 TAUEVENT 0 "TAU Architecture | default" TriggerValue
+91 TAUEVENT 0 "TAU Config |  -prefix=/apps/tools/tau/2.28.1/el7/AVX512/gnu-8.1/openmpi-3.1 -mpi -bfd=download -unwind=/apps/libraries/libunwind/1.3.1/el7/AVX512/gnu-8.1 -pdt=/apps/tools/pdt/3.25/el7/AVX512/gnu-8.1 -papi=/apps/libraries/papi/5.7.0/el7/AVX512/gnu-8.1 -iowrapper" TriggerValue
+92 TAUEVENT 0 "TAU Makefile | /apps/tools/tau/2.28.1/el7/AVX512/gnu-8.1/openmpi-3.1/x86_64/lib/Makefile.tau-papi-mpi-pdt" TriggerValue
+93 TAUEVENT 0 "TAU Version | 2.28.1-git" TriggerValue
+94 TAUEVENT 0 "TAU_BFD_LOOKUP | on" TriggerValue
+95 TAUEVENT 0 "TAU_CALLPATH | on" TriggerValue
+96 TAUEVENT 0 "TAU_CALLPATH_DEPTH | 2" TriggerValue
+97 TAUEVENT 0 "TAU_CALLSITE_DEPTH | 1" TriggerValue
+98 TAUEVENT 0 "TAU_COMM_MATRIX | off" TriggerValue
+99 TAUEVENT 0 "TAU_COMPENSATE | off" TriggerValue
+100 TAUEVENT 0 "TAU_CUDA_BINARY_EXE | " TriggerValue
+101 TAUEVENT 0 "TAU_CUPTI_API | runtime" TriggerValue
+102 TAUEVENT 0 "TAU_EBS_INCLUSIVE | 0 usec" TriggerValue
+103 TAUEVENT 0 "TAU_EBS_KEEP_UNRESOLVED_ADDR | off" TriggerValue
+104 TAUEVENT 0 "TAU_EBS_PERIOD | 30000" TriggerValue
+105 TAUEVENT 0 "TAU_EBS_SAMPLES_DROPPED_SUSPENDED_0 | 0" TriggerValue
+106 TAUEVENT 0 "TAU_EBS_SAMPLES_DROPPED_TAU_0 | 0" TriggerValue
+169 TAUEVENT 0 "TAU_EBS_SAMPLES_DROPPED_TAU_0 | 1" TriggerValue
+107 TAUEVENT 0 "TAU_EBS_SAMPLES_TAKEN_0 | 223" TriggerValue
+108 TAUEVENT 0 "TAU_EBS_UNWIND | off" TriggerValue
+109 TAUEVENT 0 "TAU_IBM_BG_HWP_COUNTERS | off" TriggerValue
+110 TAUEVENT 0 "TAU_MAX_THREADS | 1" TriggerValue
+111 TAUEVENT 0 "TAU_MEASURE_TAU | off" TriggerValue
+112 TAUEVENT 0 "TAU_MEMDBG_PROTECT_ABOVE | off" TriggerValue
+113 TAUEVENT 0 "TAU_MEMDBG_PROTECT_BELOW | off" TriggerValue
+114 TAUEVENT 0 "TAU_MEMDBG_PROTECT_FREE | off" TriggerValue
+115 TAUEVENT 0 "TAU_OPENMP_RUNTIME | on" TriggerValue
+116 TAUEVENT 0 "TAU_OPENMP_RUNTIME_EVENTS | on" TriggerValue
+117 TAUEVENT 0 "TAU_OPENMP_RUNTIME_STATES | off" TriggerValue
+118 TAUEVENT 0 "TAU_OUTPUT_CUDA_CSV | off" TriggerValue
+119 TAUEVENT 0 "TAU_PAPI_MULTIPLEXING | off" TriggerValue
+120 TAUEVENT 0 "TAU_PROFILE | on" TriggerValue
+121 TAUEVENT 0 "TAU_PROFILE_FORMAT | profile" TriggerValue
+122 TAUEVENT 0 "TAU_REGION_ADDRESSES | off" TriggerValue
+123 TAUEVENT 0 "TAU_SAMPLING | on" TriggerValue
+124 TAUEVENT 0 "TAU_SHOW_MEMORY_FUNCTIONS | off" TriggerValue
+125 TAUEVENT 0 "TAU_SIGNALS_GDB | off" TriggerValue
+126 TAUEVENT 0 "TAU_SYNCHRONIZE_CLOCKS | on" TriggerValue
+127 TAUEVENT 0 "TAU_THROTTLE | on" TriggerValue
+128 TAUEVENT 0 "TAU_THROTTLE_NUMCALLS | 100000" TriggerValue
+129 TAUEVENT 0 "TAU_THROTTLE_PERCALL | 10" TriggerValue
+130 TAUEVENT 0 "TAU_TRACE | on" TriggerValue
+131 TAUEVENT 0 "TAU_TRACE_FORMAT | tau" TriggerValue
+132 TAUEVENT 0 "TAU_TRACK_CUDA_CDP | off" TriggerValue
+133 TAUEVENT 0 "TAU_TRACK_CUDA_INSTRUCTIONS | " TriggerValue
+134 TAUEVENT 0 "TAU_TRACK_CUDA_SASS | off" TriggerValue
+135 TAUEVENT 0 "TAU_TRACK_HEADROOM | off" TriggerValue
+136 TAUEVENT 0 "TAU_TRACK_HEAP | off" TriggerValue
+137 TAUEVENT 0 "TAU_TRACK_IO_PARAMS | off" TriggerValue
+138 TAUEVENT 0 "TAU_TRACK_MEMORY_FOOTPRINT | off" TriggerValue
+139 TAUEVENT 0 "TAU_TRACK_MEMORY_LEAKS | off" TriggerValue
+140 TAUEVENT 0 "TAU_TRACK_MESSAGE | on" TriggerValue
+141 TAUEVENT 0 "TAU_TRACK_SIGNALS | off" TriggerValue
+142 TAUEVENT 0 "TAU_TRACK_UNIFIED_MEMORY | off" TriggerValue
+70 TAUEVENT 0 "TauTraceClockOffsetEnd" TriggerValue
+64 TAUEVENT 0 "TauTraceClockOffsetStart" TriggerValue
+194 TAUEVENT 0 "Timestamp | 1592834415623144" TriggerValue
+174 TAUEVENT 0 "Timestamp | 1592834415623148" TriggerValue
+232 TAUEVENT 0 "Timestamp | 1592834415623161" TriggerValue
+188 TAUEVENT 0 "Timestamp | 1592834415623175" TriggerValue
+209 TAUEVENT 0 "Timestamp | 1592834415623180" TriggerValue
+242 TAUEVENT 0 "Timestamp | 1592834415623181" TriggerValue
+143 TAUEVENT 0 "Timestamp | 1592834415623187" TriggerValue
+213 TAUEVENT 0 "Timestamp | 1592834415623189" TriggerValue
+227 TAUEVENT 0 "Timestamp | 1592834415623195" TriggerValue
+219 TAUEVENT 0 "Timestamp | 1592834415623264" TriggerValue
+248 TAUEVENT 0 "Timestamp | 1592834415623279" TriggerValue
+170 TAUEVENT 0 "Timestamp | 1592834415623280" TriggerValue
+182 TAUEVENT 0 "Timestamp | 1592834415623281" TriggerValue
+238 TAUEVENT 0 "Timestamp | 1592834415623283" TriggerValue
+144 TAUEVENT 0 "UTC Time | 2020-06-22T14:00:15Z" TriggerValue
+152 TRACER 0 "WALL_CLOCK" none
+32 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {22,0}] " EntryExit
+50 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {94,0}] " EntryExit
+202 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {106,0}] " EntryExit
+38 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {63,0}] " EntryExit
+42 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  MPI_Send()   " EntryExit
+46 TAU_SAMPLE_CONTEXT 0 "[CONTEXT]  MPI_Waitall()   " EntryExit
+34 TAU_SAMPLE 0 "[SAMPLE] Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {25}] " EntryExit
+36 TAU_SAMPLE 0 "[SAMPLE] Grid::Grid(int, int, int, int, int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {26}] " EntryExit
+56 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {100}] " EntryExit
+54 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {101}] " EntryExit
+165 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {96}] " EntryExit
+58 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {97}] " EntryExit
+60 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {98}] " EntryExit
+52 TAU_SAMPLE 0 "[SAMPLE] Grid::doOneIteration() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {99}] " EntryExit
+204 TAU_SAMPLE 0 "[SAMPLE] Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {140}] " EntryExit
+245 TAU_SAMPLE 0 "[SAMPLE] Grid::exchangeEdges() [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {154}] " EntryExit
+156 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {72}] " EntryExit
+191 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {74}] " EntryExit
+185 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {75}] " EntryExit
+40 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {77}] " EntryExit
+200 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {78}] " EntryExit
+216 TAU_SAMPLE 0 "[SAMPLE] Grid::initGrid(int) [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {80}] " EntryExit
+179 TAU_SAMPLE 0 "[SAMPLE] UNRESOLVED /usr/lib64/libc-2.17.so " EntryExit
+163 TAU_SAMPLE 0 "[SAMPLE] UNRESOLVED /usr/lib64/libmlx5.so.1.0.0 " EntryExit
+161 TAU_SAMPLE 0 "[SAMPLE] btl_openib_component_progress [{btl_openib_component.c} {0}] " EntryExit
+158 TAU_SAMPLE 0 "[SAMPLE] mca_btl_vader_component_progress [{btl_vader_component.c} {0}] " EntryExit
+235 TAU_SAMPLE 0 "[SAMPLE] ompi_coll_libnbc_progress [{/lustrehome/apps/libraries/openmpi/3.1.1/el7/AVX512/gnu-8.1/lib/openmpi/mca_coll_libnbc.so} {0}] " EntryExit
+177 TAU_SAMPLE 0 "[SAMPLE] opal_progress [{/lustrehome/apps/libraries/openmpi/3.1.1/el7/AVX512/gnu-8.1/lib/libopen-pal.so.40.10.1} {0}] " EntryExit
+44 TAU_SAMPLE 0 "[SAMPLE] poll_device [{btl_openib_component.c} {0}] " EntryExit
+48 TAU_SAMPLE 0 "[SAMPLE] pthread_spin_lock [{/usr/lib64/libpthread-2.17.so} {0}] " EntryExit
+3 TAU_DEFAULT 0 "main [{/home/s.engkadac/profiling/wave2d/tau/ex05-with-taucompilers-tracing/wave2d.cpp} {160,0}] " EntryExit
+214 TAUEVENT 0 "pid | 132910" TriggerValue
+145 TAUEVENT 0 "pid | 132930" TriggerValue
+171 TAUEVENT 0 "pid | 132964" TriggerValue
+233 TAUEVENT 0 "pid | 132971" TriggerValue
+224 TAUEVENT 0 "pid | 132983" TriggerValue
+220 TAUEVENT 0 "pid | 133012" TriggerValue
+228 TAUEVENT 0 "pid | 133022" TriggerValue
+243 TAUEVENT 0 "pid | 133037" TriggerValue
+239 TAUEVENT 0 "pid | 133070" TriggerValue
+249 TAUEVENT 0 "pid | 133071" TriggerValue
+175 TAUEVENT 0 "pid | 133074" TriggerValue
+195 TAUEVENT 0 "pid | 133077" TriggerValue
+189 TAUEVENT 0 "pid | 133082" TriggerValue
+183 TAUEVENT 0 "pid | 133085" TriggerValue
+198 TAUEVENT 0 "pid | 133086" TriggerValue
+210 TAUEVENT 0 "pid | 133087" TriggerValue
+215 TAUEVENT 0 "tid | 132910" TriggerValue
+146 TAUEVENT 0 "tid | 132930" TriggerValue
+172 TAUEVENT 0 "tid | 132964" TriggerValue
+234 TAUEVENT 0 "tid | 132971" TriggerValue
+225 TAUEVENT 0 "tid | 132983" TriggerValue
+221 TAUEVENT 0 "tid | 133012" TriggerValue
+229 TAUEVENT 0 "tid | 133022" TriggerValue
+244 TAUEVENT 0 "tid | 133037" TriggerValue
+240 TAUEVENT 0 "tid | 133070" TriggerValue
+250 TAUEVENT 0 "tid | 133071" TriggerValue
+176 TAUEVENT 0 "tid | 133074" TriggerValue
+196 TAUEVENT 0 "tid | 133077" TriggerValue
+190 TAUEVENT 0 "tid | 133082" TriggerValue
+184 TAUEVENT 0 "tid | 133085" TriggerValue
+199 TAUEVENT 0 "tid | 133086" TriggerValue
+211 TAUEVENT 0 "tid | 133087" TriggerValue
+147 TAUEVENT 0 "username | s.engkadac" TriggerValue
